@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <style type="text/css">
+        .t1{
+            color: blue;
+            padding-left: 100px;
+            list-style-type: none;
+            float: left;
+        }
+        .t2{
+            color: red;
+            padding-left: 100px;
+            list-style-type: none;
+            float: left;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: red;
+        }
+        .c_g{
+            text-align: center;
+        }
+        h4{
+
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body background="666/5.jpg">
+
+
+<h1 align="center">各种精彩游戏皆在世纪天成</h1>
+<hr color="red" size=5px  >
+<l>
+    <li class="t1" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">网站概况</a></li>
+    <li class="t2" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">部门设置</a></li>
+    <li class="t1" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">游戏分类</a></li>
+    <li class="t2" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">游戏新闻</a></li>
+    <li class="t1" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">交流平台</a></li>
+    <li class="t2" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">充值平台</a></li>
+    <li class="t1" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">游戏工会</a></li>
+    <li class="t2" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">人事动态</a></li>
+    <li class="t1" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">游戏健康</a></li>
+    <li class="t2" style="font-size:20px"><a href="666/nq96z4hmlwm3rqiy.jpg">游戏百科</a></li>
+    <br><br><br><br><br><h1 class="c_g">世纪天成游戏网页登录</h1>
+    <h4>用户名 :<input type="text" ></h4>
+    <h4>密&nbsp;&nbsp;&nbsp;码：<input type="password"></h4>
+    <h4><input type="submit" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="注册"></h4>
+
+</l>
+</body>
+</html>
