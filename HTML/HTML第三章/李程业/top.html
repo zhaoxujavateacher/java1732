@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>顶部</title>
+    <style type="text/css">
+        body{
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        #top{
+            width: 1000px;
+            height: 100px;
+            margin-left: 250px;
+        }
+        #logo{
+            background: url("images/logo.gif");
+            width: 170px;
+            height: 65px;
+            float: left;
+            line-height: 100px;
+            margin-top: 6px;
+        }
+            li{
+                float: left;
+                list-style: none;
+            }
+        a{
+            text-decoration: none;
+            margin-left: 29px;
+            color: dimgray;
+            font-weight: bold;
+        }
+        .c_d{
+            padding: 24px 60px;
+        }
+        .c_input{
+            width: 500px;
+            height: 30px;
+            border: 2px solid blue;
+            margin-left: 30px;
+            background: url("images/icon.gif") no-repeat 3px 3px;
+        }
+        .d_input{
+            width: 450px;
+            height: 26px;
+            margin-left: 30px;
+            border: 0px none;
+        }
+        .c_zha{
+            width: 60px;
+            height: 40px;
+            background-color: blue;
+            font-weight: bold;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+        #body1{
+            width: 600px;
+            height: 450px;
+            border: 1px solid dimgray ;
+            margin-left: 240px;
+            float: left;
+        }
+        #top1{
+            width: 570px;
+            height: 200px;
+            margin: 0 auto;
+            background: url("images/focus.gif") no-repeat;
+        }
+        #body_01{
+            width: 250px;
+            height:300px;
+            margin-left: 16px;
+            float: left;
+        }
+        .span{
+            color: orange;
+            font-weight: bold;
+        }
+        .tu_01{
+            background: url("images/act1.gif");
+            width: 59px;
+            height: 58px;
+            margin-top: 5px;
+            float: left;
+        }
+        span{
+            color: blue;
+        }
+        .zhi_01 {
+            margin-left: 70px;
+            font-size: 13px;
+            margin-top: 14px;
+        }
+        .tu_02{
+            background: url("images/act2.jpg");
+            width: 60px;
+            height: 68px;
+            margin-top: 4px;
+            float: left;
+        }
+        .tu_03{
+            background: url("images/act3.jpg");
+            width: 50px;
+            height: 54px;
+            margin-top: 10px;
+            float: left;
+        }
+        #body_02{
+            width: 250px;
+            height:300px;
+            margin-left: 300px;
+        }
+        .tu_04{
+            background: url("images/spot1.gif");
+            width: 50px;
+            height: 50px;
+            margin-top: 8px;
+            float: left;
+        }
+        .tu_05{
+            background: url("images/spot2.gif");
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+        .tu_06{
+            background: url("images/spot3.gif");
+            width: 50px;
+            height: 50px;
+            margin-top: 26px;
+            float: left;
+        }
+        .zhi_02 {
+            margin-left: 70px;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        #body2{
+            width: 300px;
+            height: 190px;
+            border:1px solid dimgray;
+            margin-left: 860px;
+            background-color: cornflowerblue;
+        }
+        #dl{
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .ln{
+            color: orange;
+            font-weight: bold;
+        }
+        .sj{
+            width: 200px;
+            height: 20px;
+            margin-left: 20px;
+        }
+        .sm{
+            color: blue;
+            font-size: 15px;
+            margin-left:20px;
+        }
+        .ca{
+            margin-left: 20px;
+            margin-top: 8px;
+            font-size: 10px;
+            color: slategrey;
+        }
+        .sb{
+            color: blue;
+            font-size: 14px;
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        .sb input{
+            background-color: orangered;
+            border: 0px none;
+            color: #FFFFFF;
+            width: 50px;
+            height: 20px;
+        }
+        #body3{
+            width: 300px;
+            height: 30px;
+            border: 1px solid;
+            margin-left: 860px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: slategrey;
+            background-color: cornflowerblue;
+        }
+        #body3 a{
+            margin-left: 10px;
+        }
+        #body4{
+            width: 300px;
+            height: 20px;
+            border-bottom: 1px solid blue;
+            margin-left: 860px;
+            margin-top: 10px;
+            background-color: cornflowerblue;
+        }
+        #body4 span{
+            color: orangered;
+            font-weight: bold;
+        }
+        #body5{
+            width: 150px;
+            height: 160px;
+            margin-left: 860px;
+        }
+        .tu_07{
+            background: url("images/neighbor1.jpg");
+            width: 50px;
+            height: 60px;
+            margin-top: 2px;
+            float:left;
+        }
+        .zhi_03{
+            width: 80px;
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 55px;
+        }
+        .tu_08{
+            background: url("images/neighbor2.jpg");
+            width: 50px;
+            height: 60px;
+            margin-top: 8px;
+            margin-left: -48px;
+            float:left;
+        }
+        #body6{
+            width: 150px;
+            height: 160px;
+            margin-top: -164px;
+            margin-left:1019px;
+        }
+        .tu_09{
+            background: url("images/neighbor4.jpg");
+            width: 50px;
+            height: 74px;
+            margin-top: -55px;
+            float: left;
+        }
+        .tu_10{
+            background: url("images/neighbor3.jpg");
+            width: 70px;
+            height: 74px;
+            margin-top: 25px;
+            margin-left: -48px;
+            float: left;
+        }
+        #body-1{
+            width: 600px;
+            height: 50px;
+            margin-left: 240px;
+            margin-top: 10px;
+            background: url("images/advfasion.gif");
+        }
+        #body-2{
+            width: 300px;
+            height: 50px;
+            margin-left: 860px;
+            margin-top: -50px;
+            background: url("images/train.gif");
+        }
+        #body-3{
+            width: 940px;
+            height: 20px;
+            background-color: slategrey;
+            margin-left: 240px;
+            margin-top: 20px;
+        }
+        li{
+            color: black;
+            font-weight: bold;
+            font-size: 14px;
+            margin-left: 4px;
+        }
+        #body-4{
+            margin-left: 300px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        #body-4 span{
+            font-weight: bold;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="top">
+    <div id="logo"></div>
+    <div>
+        <div>
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">VIP服务&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div class="c_d">
+            <table>
+                <tr>
+                    <td>
+                        <div class="c_input">
+                            <input type="text" class="d_input">
+                        </div>
+                    </td>
+                    <td><a href="#"><input type="button" value="找找！" class="c_zha"></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="body1">
+    <div id="top1"></div>
+    <div id="body_01">
+         <div> 参加丰富的<span class="span">活动</span></div>
+        <div class="tu_01"></div>
+        <div class="zhi_02">
+            [培训]<span>11月17号婚恋心理工作坊</span>
+             活动介绍婚恋心理工作坊；单身人士
+             进入婚恋关系的十大障碍......
+        </div>
+        <div class="tu_02"></div>
+        <div class="zhi_02">
+            [演出]<span>天籁之夜--尚雯婕2009北</span>
+            尚雯婕2009北京演唱会，天籁之夜--尚雯婕2009
+            巡回演唱会/音乐会....
+        </div>
+        <div class="tu_03"></div>
+        <div class="zhi_02">
+              [休闲户外]<span>爱旅行，11月8周日黄</span>
+              [行程安排]早7：50集合，8：00
+        </div>
+    </div>
+    <div id="body_02">
+        <div> 加入身边的<span class="span">据点</span></div>
+        <div class="tu_04"></div>
+        <div class="zhi_01">
+            剧场<span>梅兰芳大剧院</span>
+            拥有者：（价值：3000）
+            地址：西城区平安里西大街32号
+        </div>
+        <div class="tu_05"></div>
+        <div class="zhi_01">
+            滑雪场<span>莲花山滑雪场</span>
+            拥有者：（价值：4000）
+            地址：顺义区张镇良山东路
+        </div>
+        <div class="tu_06"></div>
+        <div class="zhi_01">
+            餐厅<span>四川简阳羊肉汤</span>
+            拥有者：（价值：11600）
+            地址：朝阳区金台9路总站西100米
+        </div>
+    </div>
+</div>
+<div id="body2">
+    <div id="dl">登录&nbsp;<span class="ln">LOGIN</span></div>
+    <div class="sm">你的手机号：</div>
+    <div><input type="text" class="sj"></div>
+    <div class="sm">你的秘密：</div>
+    <div><input type="password" class="sj"></div>
+    <div class="ca"><input type="checkbox">在这台电脑上记住我</div>
+    <div class="sb"><a href="#"><input type="submit" value="登录"></a><a href="#">忘记密码？</a></div>
+</div>
+<div id="body3"><a href="#">这不是六人行会员？马上注册</a></div>
+<div id="body4">找到身边的<span>邻居</span></div>
+<div id="body5">
+     <div class="tu_07"></div>
+    <div class="zhi_03">
+        <span>圣哲西</span>
+        所在写字楼
+        <span>华杰大厦</span>
+    </div>
+    <div class="tu_08"></div>
+    <div class="zhi_03">
+        <span>凤凰花</span>
+        所在写字楼
+        <span>大成国际中心</span>
+    </div>
+</div>
+    <div id="body6">
+        <div class="tu_09"></div>
+        <div class="zhi_03">
+            <span>zhangj</span>
+            所在写字楼
+            <span>海龙大厦</span>
+        </div>
+        <div class="tu_10"></div>
+        <div class="zhi_03">
+            <span>镜花水</span>
+            所在写字楼
+            <span>SOHO现代城</span>
+        </div>
+    </div>
+<div id="body-1"></div>
+<div id="body-2"></div>
+<div id="body-3">
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">关于</a></li>
+        <li><a href="#">广告</a></li>
+        <li><a href="#">服务</a></li>
+        <li><a href="#">指南</a></li>
+        <li><a href="#">联系</a></li>
+        <li><a href="#">举报</a></li>
+        <li><a href="#">给6人行发私信</a></li>
+        <li><a href="#">客服010-849883367</a></li>
+        <li><a href="#">户外网站联盟</a></li>
+    </ul>
+</div>
+<div id="body-4">copyriqht@六人行2009 <span>中文（简体）</span>《中华人民共和国电信与信息服务业务经营许可证》编号：京ICP证060911号 </div>
+</body>
+</html>
