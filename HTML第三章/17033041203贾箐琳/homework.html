@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部部分</title>
+    <style>
+      li{
+          list-style: none;
+          float: left;
+          margin: 10px;
+          font-weight: bold;
+      }
+        a{
+            text-decoration: none;
+            color: darkgrey;
+            font-weight: bold;
+        }
+       body{
+           margin: 0 auto;
+           padding: 0;
+       }
+        #head{
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #logo{
+            background: url("logo.gif") no-repeat;
+            width: 170px;
+            height: 65px;
+            float: left;
+            line-height:100px;
+            margin-top: 10px;
+        }
+        #shuru{
+            padding:21px 185px;
+            float: left;
+            margin: -80px 100px;
+        }
+        #shuru_2{
+            background: url("icon.gif") no-repeat 0px 5px;
+            border: blue 3px solid;
+            width: 416px;
+            height: 34px;
+            float: left;
+        }
+        #shuru_2 input{
+            width: 385px;
+            height: 32px;
+            margin-left: 30px;
+            border: 0px none;
+        }
+        .input{
+            height: 41px;
+            background-color: blue;
+            border: 0px none;
+            color: white;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+ <div id="head">
+     <div id="logo"></div>
+     <div id="navMenu">
+         <div id="nav">
+              <ul>
+                  <li><a href="#">首页&nbsp;&nbsp;&nbsp;|</a></li>
+                  <li><a href="#">活动&nbsp;&nbsp;&nbsp;|</a></li>
+                  <li><a href="#">据点&nbsp;&nbsp;&nbsp;|</a></li>
+                  <li><a href="#">招贴&nbsp;&nbsp;&nbsp;|</a></li>
+                  <li><a href="#">vip服务&nbsp;&nbsp;&nbsp;|</a></li>
+                  <li><a href="#">随便逛逛</a></li>
+              </ul>
+         </div>
+     </div>
+ </div>
+<div id="shuru">
+    <table>
+        <tr>
+            <td>
+                <div id="shuru_2">
+                    <input type="text">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="button" value="找找" class="input">
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
